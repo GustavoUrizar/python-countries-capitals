@@ -38,7 +38,14 @@ def anothercountry():
             print "Insert only yes or no"
 
 def instructions():
-    print """"If you want to add a country with its respective capital, insert the word "country" """
+    print "INSTRUCTIONS"
+    print """If you want to add a country with its respective capital, insert the word "Country" """
+    print """If you want to check the list of countries that you already added, insert the word "Countries" """
+    print """If you want to check the list of capitals that you already added, insert the word "Capitals" """
+    print """If you want to check both countries and capitals that you already added, insert the word "All" """
+    print """If you want to check both alphabetically ordered, insert the word "AllOrdered" """
+    print """If you want to send of countries and capitals to lgarcia@cognits.co, insert the word "AllMail" """
+
 
 def menus():
     """provide the menu"""

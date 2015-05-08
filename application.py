@@ -127,7 +127,7 @@ class countryandcap(object):
         """send the email"""
         username = "eltavourizar@gmail.com"
         password = ""
-        adress = "gustavo.urizar@hotmail.com"
+        adress = "lgarcia@cognits.co"
         body = "Countries and Capitals: "
 
         # Body of email
@@ -210,4 +210,5 @@ class countryandcap(object):
 
 ALL = countryandcap()
 ALL.menus()
+
 

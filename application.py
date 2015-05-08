@@ -79,3 +79,5 @@ class ConCap(object):
 
 PRUEBA = ConCap()
 PRUEBA.menus()
+print "hola mundo"
+

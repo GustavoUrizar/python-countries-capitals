@@ -32,6 +32,7 @@ class countryandcap(object):
                     count = True
                     #convert the original variable in true so it can repeat itself
                 elif len(countries) <= 2:
+                    print "Invalid Country"
                     count = True #if not, kill this part and go on
                 else:
                     count = False
@@ -198,8 +199,7 @@ class countryandcap(object):
                 menu = False
             elif option == "exit":
                 print "Thank you for using us"
-                menu = False
-                break
+                exit()
             else:
                 print "please insert a valid option"
                 menu = True
